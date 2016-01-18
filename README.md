@@ -1,0 +1,2 @@
+# mglg
+MultiGitLogGenerator
