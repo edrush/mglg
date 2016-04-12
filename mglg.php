@@ -169,7 +169,7 @@ function slurpCommits($path = '.', $commits = array())
         }
 
         $logs = array();
-        $logs[] = date('Y-m-d', $date);
+        $logs[] = date('Y-m-d H:i', $date);
         if (empty($authorFilter)) {
             $logs[] = $author;
         }
